@@ -1,13 +1,19 @@
 // Nome da Loja: Imagine Bolo
-let mensagem = "Seja bem-vindo(a)!, A Imagine Bolo"
-console .log (mensagem)
+let mensagem = "Seja bem-vindo(a)!" 
+console.log(mensagem)
 
 // Dados do Cliente
-let nomeDoCliente = "Vanessa a Doceira"
+let nomeDoCliente = "Periguete Joia Rara"
 let endereço = "Rua das Flores, 389"
 let telefone = "(11) 99999-9999"
 let email = "eu@comvoce.com"
 let senhaDeEntrega = "9999"
+
+// Função Exibir Primeiro Nome 
+function primeiroNome (nomeDoCliente) {
+    return nomeDoCliente.split(' ')[0]
+}
+console.log(primeiroNome(nomeDoCliente))
 
 // Bolos
 let produto = "Bolo de Chocolate"
